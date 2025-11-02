@@ -13,5 +13,8 @@ console.log(school.split(","));
 
 const friendSTR = "sohag, suon, oman, jibon, kaml, omol,fytr";
 const friends = friendSTR.split(" ");
-console.log(friends.join("|"));
+console.log(friends.join("+ "));
 console.log(friends.join("_"));
+
+const points = [23, 6, 78, 94, 34, 23, 12, 778, 8, 9];
+console.log(points.join(" +"));
