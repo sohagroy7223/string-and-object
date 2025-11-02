@@ -5,11 +5,12 @@
 const student = {
     class: "ten",
     age: 16,
-    ispassed: true,
+    isPassed: true,
     school: "chamta hat high school",
     subject: ["bangla", "english", "math", "chemistry"],
     exam: {
-        name: "test year",
+        name: "test exam",
         mark: 100,
     },
 };
+console.log(student);
